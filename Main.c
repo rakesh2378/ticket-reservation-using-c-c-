@@ -37,7 +37,7 @@ BST *reservationInfo(BST *r, int s, int *custIDmatched) // find function
   BST *presentnode = r;
   while (presentnode)
   {
-    // --------------------
+    // ----------------
 
     if (presentnode->PassnNo == s)
     {
